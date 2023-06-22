@@ -1,0 +1,16 @@
+import tkinter as tk
+window=tk.Tk()
+window.geometry("400x400")
+label=tk.Label(text="Name:",height=2,fg="red").place(x=10,y=10)
+label=tk.Label(text="Email:",height=2,fg="red").place(x=10,y=50)
+label=tk.Label(text="Country:",height=2,fg="red").place(x=10,y=90)
+label=tk.Label(text="City:",height=2,fg="red").place(x=10,y=130)
+label=tk.Label(text="Address:",height=2,fg="red").place(x=10,y=170)
+entry1=tk.Entry(width=30).place(x=70,y=20)
+entry2=tk.Entry(width=30).place(x=70,y=60)
+entry3=tk.Entry(width=30).place(x=70,y=100)
+entry4=tk.Entry(width=30).place(x=70,y=140)
+entry5=tk.Entry(width=30).place(x=70,y=180)
+button=tk.Button(text="submit",bg='blue',width=5,height=2).place(x=100,y=220)
+window.mainloop()
+
