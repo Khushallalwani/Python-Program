@@ -1,0 +1,30 @@
+import pandas as pd
+import numpy as np
+print(pd.Series(range(6)))
+a=pd.Series([12,12,13,14])
+b=pd.Series((11,15,16,16))
+c=pd.Series(['a','b','c'])
+d=pd.Series(('d','e','f'))
+e=pd.Series("HELLO")
+f=pd.Series(np.linspace(2,10,6))
+g=pd.Series(np.tile([1,2,3,'a','b','c'],2))
+h={1:'a',2:'b',3:'c',4:'d'}
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(pd.Series(h))
+print(a[2])
+
+print("================================")
+
+print('\n')
+print(a.shape)
+print(a.empty)
+print(a.nbytes)
+print(a.ndim)
+print(a.hasnans)
+print(a.dtype)

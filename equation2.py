@@ -1,0 +1,6 @@
+a=int(input("Enter a Number:"))
+b=int(input("Enter b Number:"))
+c=int(input("Enter c Number:"))
+d=int(input("Enter d Number:"))
+y=(a+b)/(c-d)
+print(y)

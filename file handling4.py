@@ -1,0 +1,7 @@
+f=open('hlo.txt','r')
+print(f.read())
+f.close()
+f=open('hlo.txt','r+')
+print(f.read())
+f.write("abcd")
+f.close()
